@@ -11,23 +11,22 @@
   
 # Microservices
 1. ## User Service
-Responsibility: Handles user authentication, registration, and profile management.
-Database:
-UserDB: Stores user data (users, roles, preferences).
-Key Features:
-Authentication (JWT or OAuth2)
-Role-based access control (e.g., User, Event Manager)
-Technologies:
-Backend: Node.js with Express, Spring Boot, or Django
-Database: PostgreSQL or MongoDB
-Authentication: Firebase Auth, Okta, or Keycloak
+- Responsibility: Handles user authentication, registration, and profile management.
+- Database: UserDB: Stores user data (users, roles, preferences).
+- Key Features:
+  - Authentication (JWT or OAuth2)
+  - Role-based access control (e.g., User, Event Manager)
+- Technologies:
+  - Backend: Node.js with Express, Spring Boot, or Django
+  - Database: PostgreSQL or MongoDB
+  - Authentication: Firebase Auth, Okta, or Keycloak
 
 2. ## Event Service
-Responsibility: Event managers can create, update, delete, and manage events.
-Database:
-EventDB: Stores event data (event_id, title, description, location, date, capacity, etc.).
-Key Features:
-CRUD for events
+- Responsibility: Event managers can create, update, delete, and manage events.
+- Database:
+  - EventDB: Stores event data (event_id, title, description, location, date, capacity, etc.).
+- Key Features:
+  - CRUD for events
 Event search and filtering
 Integration with User Service for role validation
 Technologies:
