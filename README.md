@@ -1,5 +1,12 @@
-Microservices
-1. User Service
+## Table of Contents
+- [Microservices](#Microservices)
+- [Architecture-Overview](#Architecture-Overview)
+- [Database-Layout](#Database-Layout)
+- [License](#license)
+
+  
+## Microservices
+1. # User Service
 Responsibility: Handles user authentication, registration, and profile management.
 Database:
 UserDB: Stores user data (users, roles, preferences).
@@ -11,7 +18,7 @@ Backend: Node.js with Express, Spring Boot, or Django
 Database: PostgreSQL or MongoDB
 Authentication: Firebase Auth, Okta, or Keycloak
 
-2. Event Service
+2. # Event Service
 Responsibility: Event managers can create, update, delete, and manage events.
 Database:
 EventDB: Stores event data (event_id, title, description, location, date, capacity, etc.).
@@ -25,13 +32,13 @@ Database: PostgreSQL or MongoDB
 Search: Elasticsearch or Solr
 
 3. Booking Service
-Responsibility: Handles booking of events by users.
+Responsibility: Handles users' booking of events.
 Database:
 BookingDB: Stores booking data (booking_id, user_id, event_id, status).
 Key Features:
 Create/Cancel bookings
 Track available seats
-Notify users on successful booking
+Notify users of successful booking
 Technologies:
 Backend: Node.js with NestJS or Spring Boot
 Database: PostgreSQL (with ACID compliance for transactions)
@@ -86,7 +93,7 @@ Frameworks: React.js, Angular, or Vue.js
 State Management: Redux, Vuex
 Styling: TailwindCSS, Bootstrap
 
-Architecture Overview
+## Architecture-Overview
 Load Balancer: Distributes traffic across microservices (e.g., AWS Elastic Load Balancer, NGINX).
 Service Discovery: Tracks available microservices (e.g., Consul, Eureka).
 Containerization & Orchestration:
@@ -98,7 +105,7 @@ Monitoring: Prometheus, Grafana
 Message Broker: RabbitMQ or Apache Kafka for inter-service communication.
 CI/CD Pipelines: Jenkins, GitHub Actions, or GitLab CI/CD for deployment.
 
-Database Design
+## Database-Layout
 UserDB: users, roles, sessions
 EventDB: events, categories, locations
 BookingDB: bookings, transactions
