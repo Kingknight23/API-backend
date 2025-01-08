@@ -108,5 +108,4 @@ AnalyticsDB: metrics, aggregations
 
 This setup ensures scalability, resilience, and separation of concerns, making maintaining and extending the application easier.
 
-
-https://drive.google.com/file/d/1wmbokVmJQbo3i3LbW8_s8w7NjBJW1wZ9/view?usp=sharing
+![image](https://drive.google.com/file/d/1wmbokVmJQbo3i3LbW8_s8w7NjBJW1wZ9/view?usp=sharing)
