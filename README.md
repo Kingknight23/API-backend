@@ -40,7 +40,7 @@
   - Event search and filtering
   - Integration with User Service for role validation
 - Technologies:
-  - Backend: Spring Boot, Flask, or Express.js
+  - Backend: Spring Boot
   - Database: PostgreSQL or MongoDB
   - Search: Elasticsearch or Solr
 
@@ -53,7 +53,7 @@
   - Track available seats
   - Notify users of successful booking
 - Technologies:
-  - Backend: Node.js with NestJS or Spring Boot
+  - Backend: Spring Boot
   - Database: PostgreSQL (with ACID compliance for transactions)
   - Messaging: RabbitMQ or Apache Kafka (for booking notifications)
 
@@ -65,7 +65,7 @@
   - Payment gateway integration (e.g., Stripe, PayPal)
   - Refund and transaction history
 - Technologies:
-  - Backend: FastAPI, Express.js, or Spring Boot
+  - Backend: FastAPI
   - Payment Gateway: Stripe, PayPal, Razorpay
   - Database: PostgreSQL or DynamoDB
 
