@@ -7,6 +7,17 @@
 # Architecture-Diagram
 ![image](https://github.com/Kingknight23/API-backend/blob/master/img/1I-6tjPB2ukMVBunWDOhO6iNinSTsGQ4.png)
 
+# Architecture-Overview
+- Load Balancer: Distributes traffic across microservices (e.g., AWS Elastic Load Balancer, NGINX).
+- Service Discovery: Tracks available microservices (e.g., Consul, Eureka).
+- Containerization & Orchestration:
+  - Docker for containerization
+  - Kubernetes for orchestration
+- Logging & Monitoring:
+  - Logging: ELK Stack (Elasticsearch, Logstash, Kibana) or Loki
+  - Monitoring: Prometheus, Grafana
+- Message Broker: RabbitMQ or Apache Kafka for inter-service communication.
+- CI/CD Pipelines: Jenkins, GitHub Actions, or GitLab CI/CD for deployment.
   
 # Microservices
 1. ## User Service
@@ -93,18 +104,6 @@
 - Frameworks: React.js, Angular, or Vue.js
 - State Management: Redux, Vuex
 - Styling: CSS, Bootstrap
-
-# Architecture-Overview
-- Load Balancer: Distributes traffic across microservices (e.g., AWS Elastic Load Balancer, NGINX).
-- Service Discovery: Tracks available microservices (e.g., Consul, Eureka).
-- Containerization & Orchestration:
-  - Docker for containerization
-  - Kubernetes for orchestration
-- Logging & Monitoring:
-  - Logging: ELK Stack (Elasticsearch, Logstash, Kibana) or Loki
-  - Monitoring: Prometheus, Grafana
-- Message Broker: RabbitMQ or Apache Kafka for inter-service communication.
-- CI/CD Pipelines: Jenkins, GitHub Actions, or GitLab CI/CD for deployment.
 
 # Database-Layout
 - UserDB: users, roles, sessions
