@@ -1,0 +1,15 @@
+fastapi==0.115.6           # Framework for building the API
+uvicorn[standard]==0.23.0  # ASGI server to run FastAPI
+pydantic==1.10.12          # Data validation and settings management
+sqlalchemy==2.0.21         # ORM for database interaction (if PostgreSQL)
+asyncpg==0.28.0            # PostgreSQL driver for async operation (optional with SQLAlchemy)
+boto3==1.28.57             # AWS SDK for DynamoDB (if DynamoDB is used)
+stripe==5.0.0              # Stripe payment gateway integration
+# paypalhttp==1.0.4          # PayPal SDK for integration
+python-dotenv==1.0.0       # For loading environment variables (e.g., API keys, secrets)
+fastapi-utils==0.8.0       # Additional FastAPI utilities for dependency injection and helpers
+alembic==1.13.3            # Database migrations (for PostgreSQL)
+httpx==0.28.0              # Async HTTP client for external API calls (e.g., Stripe, PayPal)
+loguru==0.7.3              # Simplified and feature-rich logging
+pytest==8.3.2              # Testing framework
+pytest-asyncio==0.25.1     # Testing support for async code
